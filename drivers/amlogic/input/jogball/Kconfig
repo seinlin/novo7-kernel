@@ -1,0 +1,9 @@
+#
+#  jogball input device configuration
+#
+
+config JOGBALL_INPUT_GPIO
+	tristate "Jogball Input Device Driver Support"
+	help
+	  Say Y here if you want to support gpio based keys, wheels etc...
+	  
